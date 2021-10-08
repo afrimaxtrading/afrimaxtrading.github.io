@@ -3537,8 +3537,8 @@ input::-moz-focus-inner {
     position: relative;
 }
 
-.s-hero__content h1 {
-    font-size: 22rem;
+.s-hero__content h2 {
+    font-size: 12rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
@@ -3547,7 +3547,7 @@ input::-moz-focus-inner {
     position: relative;
 }
 
-.s-hero__content h1::before {
+.s-hero__content h2::before {
     display: block;
     content: "";
     height: 10rem;
@@ -3822,8 +3822,8 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         max-width: 1000px;
     }
-    .s-hero__content h1 {
-        font-size: 20rem;
+    .s-hero__content h2 {
+        font-size: 12rem;
     }
     .s-hero__content-about {
         font-size: 3.3rem;
@@ -3844,8 +3844,8 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         max-width: 800px;
     }
-    .s-hero__content h1 {
-        font-size: 18rem;
+    .s-hero__content h2 {
+        font-size: 16rem;
     }
 }
 
@@ -3920,7 +3920,7 @@ html.no-csstransitions .s-hero__content {
     .s-hero__content {
         padding-bottom: 8vh;
     }
-    .s-hero__content h1::before {
+    .s-hero__content h2::before {
         -webkit-transform: translateX(0);
         transform: translateX(0);
         left: -1.2rem;
@@ -3932,7 +3932,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 700px) {
-    .s-hero__content h1 {
+    .s-hero__content h2 {
         font-size: 16rem;
     }
     .s-hero__content-about {
@@ -3944,8 +3944,9 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 600px) {
-    .s-hero__content h1 {
-        font-size: 28vw;
+    .s-hero__content h2 {
+        font-size: 18vw;
+        font-weight: bold;
     }
     .s-hero__content-about {
         padding-right: 15vw;
@@ -3962,7 +3963,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 @media screen and (max-width: 500px) {
-    .s-hero__content h1::before {
+    .s-hero__content h2::before {
         left: -6rem;
         bottom: .6em;
     }
@@ -3980,7 +3981,7 @@ html.no-csstransitions .s-hero__content {
     .s-header__menu-toggle {
         right: 3.2rem;
     }
-    .s-hero__content h1::before {
+    .s-hero__content h2::before {
         left: -8rem;
     }
     .s-hero__content {
