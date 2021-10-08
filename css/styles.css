@@ -3151,7 +3151,7 @@ input::-moz-focus-inner {
     list-style: none;
     font-family: var(--font-2);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 6rem;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
@@ -4071,6 +4071,18 @@ html.no-csstransitions .s-hero__content {
     bottom: var(--vspace-1);
 }
 
+.s-about__photo_lower {
+    background-image: url(../images/minerals2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: var(--vspace-0_5);
+    right: var(--gutter-lg);
+    left: var(--gutter-lg);
+    bottom: var(--vspace-1);
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about process
@@ -4315,6 +4327,8 @@ html.no-csstransitions .s-hero__content {
 .folio-item__thumb img {
     vertical-align: bottom;
     margin-bottom: 0;
+    width: 620px;
+    height: 400px;
 }
 
 /* portfolio info
@@ -4714,8 +4728,8 @@ html.no-csstransitions .s-hero__content {
 .s-contact__email {
     margin-top: var(--vspace-1_5);
     font-family: var(--font-2);
-    font-size: calc(var(--text-size) * 6.6);
-    font-weight: 500;
+    font-size: calc(var(--text-size) * 2.6);
+    font-weight: 300;
     letter-spacing: -0.01em;
     line-height: 1;
 }
@@ -4737,13 +4751,13 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-contact__email {
-        font-size: calc(var(--text-size) * 6);
+        font-size: calc(var(--text-size) * 4);
     }
 }
 
 @media screen and (max-width: 1200px) {
     .s-contact__email {
-        font-size: 10vw;
+        font-size: 5vw;
     }
 }
 
